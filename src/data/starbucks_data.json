@@ -1,0 +1,652 @@
+[
+    {
+        "item_id": 1,
+        "item_type_id": 5,
+        "sub_category_id": 6,
+        "category_name": "Drinks",
+        "info": {
+            "sub_category_name": "Cold Coffees",
+            "sub_category_image_path": "./menu/Cold Coffees.jpg",
+            "item_type": "Iced Shaken Espresso",
+            "item_name": "Iced Chocolate Almondmilk Shaken Espresso",
+            "item_img_path": "./images/drinks/cold_coffees/Iced Chocolate Almondmilk Shaken Espresso.jpg"
+        }
+    },
+    {
+        "item_id": 2,
+        "item_type_id": 1,
+        "sub_category_id": 6,
+        "category_name": "Drinks",
+        "info": {
+            "sub_category_name": "Cold Coffees",
+            "sub_category_image_path": "./menu/Cold Coffees.jpg",
+            "item_type": "Cold Brews",
+            "item_name": "White Chocolate Macadamia Cream Cold Brew",
+            "item_img_path": "./images/drinks/cold_coffees/White Chocolate Macadamia Cream Cold Brew.jpg"
+        }
+    },
+    {
+        "item_id": 3,
+        "item_type_id": 8,
+        "sub_category_id": 6,
+        "category_name": "Drinks",
+        "info": {
+            "sub_category_name": "Cold Coffees",
+            "sub_category_image_path": "./menu/Cold Coffees.jpg",
+            "item_type": "Iced Macchiatos",
+            "item_name": "Iced Caramel Macchiato",
+            "item_img_path": "./images/drinks/cold_coffees/Iced Caramel Macchiato.jpg"
+        }
+    },
+    {
+        "item_id": 4,
+        "item_type_id": 9,
+        "sub_category_id": 6,
+        "category_name": "Drinks",
+        "info": {
+            "sub_category_name": "Cold Coffees",
+            "sub_category_image_path": "./menu/Cold Coffees.jpg",
+            "item_type": "Iced Mochas",
+            "item_name": "Iced White Chocolate Mocha",
+            "item_img_path": "./images/drinks/cold_coffees/Iced White Chocolate Mocha.jpg"
+        }
+    },
+    {
+        "item_id": 5,
+        "item_type_id": 5,
+        "sub_category_id": 6,
+        "category_name": "Drinks",
+        "info": {
+            "sub_category_name": "Cold Coffees",
+            "sub_category_image_path": "./menu/Cold Coffees.jpg",
+            "item_type": "Iced Shaken Espresso",
+            "item_name": "Iced Toasted Vanilla Oatmilk Shaken Espresso",
+            "item_img_path": "./images/drinks/cold_coffees/Iced Toasted Vanilla Oatmilk Shaken Espresso.jpg"
+        }
+    },
+    {
+        "item_id": 6,
+        "item_type_id": 1,
+        "sub_category_id": 6,
+        "category_name": "Drinks",
+        "info": {
+            "sub_category_name": "Cold Coffees",
+            "sub_category_image_path": "./menu/Cold Coffees.jpg",
+            "item_type": "Cold Brews",
+            "item_name": "Starbucks\u00ae Cold Brew Coffee",
+            "item_img_path": "./images/drinks/cold_coffees/Starbucks\u00ae Cold Brew Coffee.jpg"
+        }
+    },
+    {
+        "item_id": 7,
+        "item_type_id": 6,
+        "sub_category_id": 6,
+        "category_name": "Drinks",
+        "info": {
+            "sub_category_name": "Cold Coffees",
+            "sub_category_image_path": "./menu/Cold Coffees.jpg",
+            "item_type": "Iced Flat Whites",
+            "item_name": "Iced Honey Almondmilk Flat White",
+            "item_img_path": "./images/drinks/cold_coffees/Iced Honey Almondmilk Flat White.jpg"
+        }
+    },
+    {
+        "item_id": 8,
+        "item_type_id": 4,
+        "sub_category_id": 6,
+        "category_name": "Drinks",
+        "info": {
+            "sub_category_name": "Cold Coffees",
+            "sub_category_image_path": "./menu/Cold Coffees.jpg",
+            "item_type": "Iced Coffees",
+            "item_name": "Iced Espresso",
+            "item_img_path": "./images/drinks/cold_coffees/Iced Espresso.jpg"
+        }
+    },
+    {
+        "item_id": 9,
+        "item_type_id": 9,
+        "sub_category_id": 6,
+        "category_name": "Drinks",
+        "info": {
+            "sub_category_name": "Cold Coffees",
+            "sub_category_image_path": "./menu/Cold Coffees.jpg",
+            "item_type": "Iced Mochas",
+            "item_name": "Iced Caff\u00e8 Mocha",
+            "item_img_path": "./images/drinks/cold_coffees/Iced Caff\u00e8 Mocha.jpg"
+        }
+    },
+    {
+        "item_id": 10,
+        "item_type_id": 7,
+        "sub_category_id": 6,
+        "category_name": "Drinks",
+        "info": {
+            "sub_category_name": "Cold Coffees",
+            "sub_category_image_path": "./menu/Cold Coffees.jpg",
+            "item_type": "Iced Lattes",
+            "item_name": "Iced Cinnamon Dolce Latte",
+            "item_img_path": "./images/drinks/cold_coffees/Iced Cinnamon Dolce Latte.jpg"
+        }
+    },
+    {
+        "item_id": 11,
+        "item_type_id": 5,
+        "sub_category_id": 6,
+        "category_name": "Drinks",
+        "info": {
+            "sub_category_name": "Cold Coffees",
+            "sub_category_image_path": "./menu/Cold Coffees.jpg",
+            "item_type": "Iced Shaken Espresso",
+            "item_name": "Iced Shaken Espresso",
+            "item_img_path": "./images/drinks/cold_coffees/Iced Shaken Espresso.jpg"
+        }
+    },
+    {
+        "item_id": 12,
+        "item_type_id": 7,
+        "sub_category_id": 6,
+        "category_name": "Drinks",
+        "info": {
+            "sub_category_name": "Cold Coffees",
+            "sub_category_image_path": "./menu/Cold Coffees.jpg",
+            "item_type": "Iced Lattes",
+            "item_name": "Iced Caff\u00e8 Latte",
+            "item_img_path": "./images/drinks/cold_coffees/Iced Caff\u00e8 Latte.jpg"
+        }
+    },
+    {
+        "item_id": 13,
+        "item_type_id": 9,
+        "sub_category_id": 6,
+        "category_name": "Drinks",
+        "info": {
+            "sub_category_name": "Cold Coffees",
+            "sub_category_image_path": "./menu/Cold Coffees.jpg",
+            "item_type": "Iced Mochas",
+            "item_name": "Starbucks Reserve\u00ae Iced Dark Chocolate Mocha",
+            "item_img_path": "./images/drinks/cold_coffees/Starbucks Reserve\u00ae Iced Dark Chocolate Mocha.jpg"
+        }
+    },
+    {
+        "item_id": 14,
+        "item_type_id": 5,
+        "sub_category_id": 6,
+        "category_name": "Drinks",
+        "info": {
+            "sub_category_name": "Cold Coffees",
+            "sub_category_image_path": "./menu/Cold Coffees.jpg",
+            "item_type": "Iced Shaken Espresso",
+            "item_name": "Oleato\u2122 Iced Shaken Espresso with Oatmilk and Toffeenut",
+            "item_img_path": "./images/drinks/cold_coffees/Oleato\u2122 Iced Shaken Espresso with Oatmilk and Toffeenut.jpg"
+        }
+    },
+    {
+        "item_id": 15,
+        "item_type_id": 4,
+        "sub_category_id": 6,
+        "category_name": "Drinks",
+        "info": {
+            "sub_category_name": "Cold Coffees",
+            "sub_category_image_path": "./menu/Cold Coffees.jpg",
+            "item_type": "Iced Coffees",
+            "item_name": "Iced Coffee",
+            "item_img_path": "./images/drinks/cold_coffees/Iced Coffee.jpg"
+        }
+    },
+    {
+        "item_id": 16,
+        "item_type_id": 7,
+        "sub_category_id": 6,
+        "category_name": "Drinks",
+        "info": {
+            "sub_category_name": "Cold Coffees",
+            "sub_category_image_path": "./menu/Cold Coffees.jpg",
+            "item_type": "Iced Lattes",
+            "item_name": "Starbucks Reserve\u00ae Iced Hazelnut Bianco Latte",
+            "item_img_path": "./images/drinks/cold_coffees/Starbucks Reserve\u00ae Iced Hazelnut Bianco Latte.jpg"
+        }
+    },
+    {
+        "item_id": 17,
+        "item_type_id": 1,
+        "sub_category_id": 6,
+        "category_name": "Drinks",
+        "info": {
+            "sub_category_name": "Cold Coffees",
+            "sub_category_image_path": "./menu/Cold Coffees.jpg",
+            "item_type": "Cold Brews",
+            "item_name": "Vanilla Sweet Cream Cold Brew",
+            "item_img_path": "./images/drinks/cold_coffees/Vanilla Sweet Cream Cold Brew.jpg"
+        }
+    },
+    {
+        "item_id": 18,
+        "item_type_id": 4,
+        "sub_category_id": 6,
+        "category_name": "Drinks",
+        "info": {
+            "sub_category_name": "Cold Coffees",
+            "sub_category_image_path": "./menu/Cold Coffees.jpg",
+            "item_type": "Iced Coffees",
+            "item_name": "Iced Coffee with Milk",
+            "item_img_path": "./images/drinks/cold_coffees/Iced Coffee with Milk.jpg"
+        }
+    },
+    {
+        "item_id": 19,
+        "item_type_id": 1,
+        "sub_category_id": 6,
+        "category_name": "Drinks",
+        "info": {
+            "sub_category_name": "Cold Coffees",
+            "sub_category_image_path": "./menu/Cold Coffees.jpg",
+            "item_type": "Cold Brews",
+            "item_name": "Cinnamon Caramel Cream Cold Brew",
+            "item_img_path": "./images/drinks/cold_coffees/Cinnamon Caramel Cream Cold Brew.jpg"
+        }
+    },
+    {
+        "item_id": 20,
+        "item_type_id": 2,
+        "sub_category_id": 6,
+        "category_name": "Drinks",
+        "info": {
+            "sub_category_name": "Cold Coffees",
+            "sub_category_image_path": "./menu/Cold Coffees.jpg",
+            "item_type": "Nitro Cold Brews",
+            "item_name": "Nitro Cold Brew",
+            "item_img_path": "./images/drinks/cold_coffees/Nitro Cold Brew.jpg"
+        }
+    },
+    {
+        "item_id": 21,
+        "item_type_id": 1,
+        "sub_category_id": 6,
+        "category_name": "Drinks",
+        "info": {
+            "sub_category_name": "Cold Coffees",
+            "sub_category_image_path": "./menu/Cold Coffees.jpg",
+            "item_type": "Cold Brews",
+            "item_name": "Salted Caramel Cream Cold Brew",
+            "item_img_path": "./images/drinks/cold_coffees/Salted Caramel Cream Cold Brew.jpg"
+        }
+    },
+    {
+        "item_id": 22,
+        "item_type_id": 6,
+        "sub_category_id": 6,
+        "category_name": "Drinks",
+        "info": {
+            "sub_category_name": "Cold Coffees",
+            "sub_category_image_path": "./menu/Cold Coffees.jpg",
+            "item_type": "Iced Flat Whites",
+            "item_name": "Iced Flat White",
+            "item_img_path": "./images/drinks/cold_coffees/Iced Flat White.jpg"
+        }
+    },
+    {
+        "item_id": 23,
+        "item_type_id": 2,
+        "sub_category_id": 6,
+        "category_name": "Drinks",
+        "info": {
+            "sub_category_name": "Cold Coffees",
+            "sub_category_image_path": "./menu/Cold Coffees.jpg",
+            "item_type": "Nitro Cold Brews",
+            "item_name": "Cinnamon Caramel Cream Nitro Cold Brew",
+            "item_img_path": "./images/drinks/cold_coffees/Cinnamon Caramel Cream Nitro Cold Brew.jpg"
+        }
+    },
+    {
+        "item_id": 24,
+        "item_type_id": 3,
+        "sub_category_id": 6,
+        "category_name": "Drinks",
+        "info": {
+            "sub_category_name": "Cold Coffees",
+            "sub_category_image_path": "./menu/Cold Coffees.jpg",
+            "item_type": "Iced Americano",
+            "item_name": "Iced Caff\u00e8 Americano",
+            "item_img_path": "./images/drinks/cold_coffees/Iced Caff\u00e8 Americano.jpg"
+        }
+    },
+    {
+        "item_id": 25,
+        "item_type_id": 1,
+        "sub_category_id": 6,
+        "category_name": "Drinks",
+        "info": {
+            "sub_category_name": "Cold Coffees",
+            "sub_category_image_path": "./menu/Cold Coffees.jpg",
+            "item_type": "Cold Brews",
+            "item_name": "Chocolate Cream Cold Brew",
+            "item_img_path": "./images/drinks/cold_coffees/Chocolate Cream Cold Brew.jpg"
+        }
+    },
+    {
+        "item_id": 26,
+        "item_type_id": 7,
+        "sub_category_id": 6,
+        "category_name": "Drinks",
+        "info": {
+            "sub_category_name": "Cold Coffees",
+            "sub_category_image_path": "./menu/Cold Coffees.jpg",
+            "item_type": "Iced Lattes",
+            "item_name": "Starbucks Reserve\u00ae Iced Latte",
+            "item_img_path": "./images/drinks/cold_coffees/Starbucks Reserve\u00ae Iced Latte.jpg"
+        }
+    },
+    {
+        "item_id": 27,
+        "item_type_id": 7,
+        "sub_category_id": 6,
+        "category_name": "Drinks",
+        "info": {
+            "sub_category_name": "Cold Coffees",
+            "sub_category_image_path": "./menu/Cold Coffees.jpg",
+            "item_type": "Iced Lattes",
+            "item_name": "Iced Starbucks\u00ae Blonde Vanilla Latte",
+            "item_img_path": "./images/images/drinks/cold_coffees/Iced Starbucks\u00ae Blonde Vanilla Latte.jpg"
+        }
+    },
+    {
+        "item_id": 28,
+        "item_type_id": 1,
+        "sub_category_id": 6,
+        "category_name": "Drinks",
+        "info": {
+            "sub_category_name": "Cold Coffees",
+            "sub_category_image_path": "./menu/Cold Coffees.jpg",
+            "item_type": "Cold Brews",
+            "item_name": "Starbucks\u00ae Cold Brew Coffee with Milk",
+            "item_img_path": "./images/drinks/cold_coffees/Starbucks\u00ae Cold Brew Coffee with Milk.jpg"
+        }
+    },
+    {
+        "item_id": 29,
+        "item_type_id": 5,
+        "sub_category_id": 6,
+        "category_name": "Drinks",
+        "info": {
+            "sub_category_name": "Cold Coffees",
+            "sub_category_image_path": "./menu/Cold Coffees.jpg",
+            "item_type": "Iced Shaken Espresso",
+            "item_name": "Iced Brown Sugar Oatmilk Shaken Espresso",
+            "item_img_path": "./images/drinks/cold_coffees/Iced Brown Sugar Oatmilk Shaken Espresso.jpg"
+        }
+    },
+    {
+        "item_id": 30,
+        "item_type_id": 2,
+        "sub_category_id": 6,
+        "category_name": "Drinks",
+        "info": {
+            "sub_category_name": "Cold Coffees",
+            "sub_category_image_path": "./menu/Cold Coffees.jpg",
+            "item_type": "Nitro Cold Brews",
+            "item_name": "Vanilla Sweet Cream Nitro Cold Brew",
+            "item_img_path": "./images/drinks/cold_coffees/Vanilla Sweet Cream Nitro Cold Brew.jpg"
+        }
+    },
+    {
+        "item_id": 31,
+        "item_type_id": 1,
+        "sub_category_id": 6,
+        "category_name": "Drinks",
+        "info": {
+            "sub_category_name": "Cold Coffees",
+            "sub_category_image_path": "./menu/Cold Coffees.jpg",
+            "item_type": "Cold Brews",
+            "item_name": "Oleato Golden Foam\u2122 Cold Brew",
+            "item_img_path": "./images/drinks/cold_coffees/Oleato Golden Foam\u2122 Cold Brew.jpg"
+        }
+    },
+    {
+        "item_id": 32,
+        "item_type_id": 27,
+        "sub_category_id": 17,
+        "category_name": "Drinks",
+        "info": {
+            "sub_category_name": "Frappuccino\u00ae Blended Beverages",
+            "sub_category_image_path": "./menu/Frappuccino\u00ae Blended Beverages.jpg",
+            "item_type": "Coffee Frappuccino\u00ae",
+            "item_name": "Mocha Cookie Crumble Frappuccino\u00ae",
+            "item_img_path": "./images/drinks/frappucino/Mocha Cookie Crumble Frappuccino\u00ae.jpg"
+        }
+    },
+    {
+        "item_id": 33,
+        "item_type_id": 27,
+        "sub_category_id": 17,
+        "category_name": "Drinks",
+        "info": {
+            "sub_category_name": "Frappuccino\u00ae Blended Beverages",
+            "sub_category_image_path": "./menu/Frappuccino\u00ae Blended Beverages.jpg",
+            "item_type": "Coffee Frappuccino\u00ae",
+            "item_name": "Coffee Frappuccino\u00ae Blended Beverage",
+            "item_img_path": "./images/drinks/frappucino/Coffee Frappuccino\u00ae Blended Beverage.jpg"
+        }
+    },
+    {
+        "item_id": 34,
+        "item_type_id": 28,
+        "sub_category_id": 17,
+        "category_name": "Drinks",
+        "info": {
+            "sub_category_name": "Frappuccino\u00ae Blended Beverages",
+            "sub_category_image_path": "./menu/Frappuccino\u00ae Blended Beverages.jpg",
+            "item_type": "Creme Frappuccino\u00ae",
+            "item_name": "Double Chocolaty Chip Cr\u00e8me Frappuccino\u00ae Blended Beverage",
+            "item_img_path": "./images/drinks/frappucino/Double Chocolaty Chip Cr\u00e8me Frappuccino\u00ae Blended Beverage.jpg"
+        }
+    },
+    {
+        "item_id": 35,
+        "item_type_id": 28,
+        "sub_category_id": 17,
+        "category_name": "Drinks",
+        "info": {
+            "sub_category_name": "Frappuccino\u00ae Blended Beverages",
+            "sub_category_image_path": "./menu/Frappuccino\u00ae Blended Beverages.jpg",
+            "item_type": "Creme Frappuccino\u00ae",
+            "item_name": "Vanilla Bean Cr\u00e8me Frappuccino\u00ae Blended Cr\u00e8me",
+            "item_img_path": "./images/drinks/frappucino/Vanilla Bean Cr\u00e8me Frappuccino\u00ae Blended Cr\u00e8me.jpg"
+        }
+    },
+    {
+        "item_id": 36,
+        "item_type_id": 28,
+        "sub_category_id": 17,
+        "category_name": "Drinks",
+        "info": {
+            "sub_category_name": "Frappuccino\u00ae Blended Beverages",
+            "sub_category_image_path": "./menu/Frappuccino\u00ae Blended Beverages.jpg",
+            "item_type": "Creme Frappuccino\u00ae",
+            "item_name": "Strawberry Cr\u00e8me Frappuccino\u00ae Blended Beverage",
+            "item_img_path": "./images/drinks/frappucino/Strawberry Cr\u00e8me Frappuccino\u00ae Blended Beverage.jpg"
+        }
+    },
+    {
+        "item_id": 37,
+        "item_type_id": 27,
+        "sub_category_id": 17,
+        "category_name": "Drinks",
+        "info": {
+            "sub_category_name": "Frappuccino\u00ae Blended Beverages",
+            "sub_category_image_path": "./menu/Frappuccino\u00ae Blended Beverages.jpg",
+            "item_type": "Coffee Frappuccino\u00ae",
+            "item_name": "Mocha Frappuccino\u00ae Blended Beverage",
+            "item_img_path": "./images/drinks/frappucino/Mocha Frappuccino\u00ae Blended Beverage.jpg"
+        }
+    },
+    {
+        "item_id": 38,
+        "item_type_id": 28,
+        "sub_category_id": 17,
+        "category_name": "Drinks",
+        "info": {
+            "sub_category_name": "Frappuccino\u00ae Blended Beverages",
+            "sub_category_image_path": "./menu/Frappuccino\u00ae Blended Beverages.jpg",
+            "item_type": "Creme Frappuccino\u00ae",
+            "item_name": "Chocolate Mint Cr\u00e8me Frappuccino\u00ae Blended Beverage",
+            "item_img_path": "./images/drinks/frappucino/Chocolate Mint Cr\u00e8me Frappuccino\u00ae Blended Beverage.jpg"
+        }
+    },
+    {
+        "item_id": 39,
+        "item_type_id": 27,
+        "sub_category_id": 17,
+        "category_name": "Drinks",
+        "info": {
+            "sub_category_name": "Frappuccino\u00ae Blended Beverages",
+            "sub_category_image_path": "./menu/Frappuccino\u00ae Blended Beverages.jpg",
+            "item_type": "Coffee Frappuccino\u00ae",
+            "item_name": "Caramel Ribbon Crunch Frappuccino\u00ae Blended Beverage",
+            "item_img_path": "./images/drinks/frappucino/Caramel Ribbon Crunch Frappuccino\u00ae Blended Beverage.jpg"
+        }
+    },
+    {
+        "item_id": 40,
+        "item_type_id": 27,
+        "sub_category_id": 17,
+        "category_name": "Drinks",
+        "info": {
+            "sub_category_name": "Frappuccino\u00ae Blended Beverages",
+            "sub_category_image_path": "./menu/Frappuccino\u00ae Blended Beverages.jpg",
+            "item_type": "Coffee Frappuccino\u00ae",
+            "item_name": "Java Chip Frappuccino\u00ae Blended Beverage",
+            "item_img_path": "./images/drinks/frappucino/Java Chip Frappuccino\u00ae Blended Beverage.jpg"
+        }
+    },
+    {
+        "item_id": 41,
+        "item_type_id": 28,
+        "sub_category_id": 17,
+        "category_name": "Drinks",
+        "info": {
+            "sub_category_name": "Frappuccino\u00ae Blended Beverages",
+            "sub_category_image_path": "./menu/Frappuccino\u00ae Blended Beverages.jpg",
+            "item_type": "Creme Frappuccino\u00ae",
+            "item_name": "Caramel Ribbon Crunch Cr\u00e8me Frappuccino\u00ae Blended Beverage",
+            "item_img_path": "./images/drinks/frappucino/Caramel Ribbon Crunch Cr\u00e8me Frappuccino\u00ae Blended Beverage.jpg"
+        }
+    },
+    {
+        "item_id": 42,
+        "item_type_id": 27,
+        "sub_category_id": 17,
+        "category_name": "Drinks",
+        "info": {
+            "sub_category_name": "Frappuccino\u00ae Blended Beverages",
+            "sub_category_image_path": "./menu/Frappuccino\u00ae Blended Beverages.jpg",
+            "item_type": "Coffee Frappuccino\u00ae",
+            "item_name": "Chocolate Java Mint Frappuccino\u00ae Blended Beverage",
+            "item_img_path": "./images/drinks/frappucino/Chocolate Java Mint Frappuccino\u00ae Blended Beverage.jpg"
+        }
+    },
+    {
+        "item_id": 43,
+        "item_type_id": 28,
+        "sub_category_id": 17,
+        "category_name": "Drinks",
+        "info": {
+            "sub_category_name": "Frappuccino\u00ae Blended Beverages",
+            "sub_category_image_path": "./menu/Frappuccino\u00ae Blended Beverages.jpg",
+            "item_type": "Creme Frappuccino\u00ae",
+            "item_name": "Chocolate Cookie Crumble Cr\u00e8me Frappuccino\u00ae",
+            "item_img_path": "./images/drinks/frappucino/Chocolate Cookie Crumble Cr\u00e8me Frappuccino\u00ae.jpg"
+        }
+    },
+    {
+        "item_id": 44,
+        "item_type_id": 27,
+        "sub_category_id": 17,
+        "category_name": "Drinks",
+        "info": {
+            "sub_category_name": "Frappuccino\u00ae Blended Beverages",
+            "sub_category_image_path": "./menu/Frappuccino\u00ae Blended Beverages.jpg",
+            "item_type": "Coffee Frappuccino\u00ae",
+            "item_name": "Caramel Frappuccino\u00ae Blended Beverage",
+            "item_img_path": "./images/drinks/frappucino/Caramel Frappuccino\u00ae Blended Beverage.jpg"
+        }
+    },
+    {
+        "item_id": 45,
+        "item_type_id": 27,
+        "sub_category_id": 17,
+        "category_name": "Drinks",
+        "info": {
+            "sub_category_name": "Frappuccino\u00ae Blended Beverages",
+            "sub_category_image_path": "./menu/Frappuccino\u00ae Blended Beverages.jpg",
+            "item_type": "Coffee Frappuccino\u00ae",
+            "item_name": "Espresso Frappuccino\u00ae Blended Beverage",
+            "item_img_path": "./images/drinks/frappucino/Espresso Frappuccino\u00ae Blended Beverage.jpg"
+        }
+    },
+    {
+        "item_id": 46,
+        "item_type_id": 27,
+        "sub_category_id": 17,
+        "category_name": "Drinks",
+        "info": {
+            "sub_category_name": "Frappuccino\u00ae Blended Beverages",
+            "sub_category_image_path": "./menu/Frappuccino\u00ae Blended Beverages.jpg",
+            "item_type": "Coffee Frappuccino\u00ae",
+            "item_name": "Caff\u00e8 Vanilla Frappuccino\u00ae Blended Beverage",
+            "item_img_path": "./images/drinks/frappucino/Caff\u00e8 Vanilla Frappuccino\u00ae Blended Beverage.jpg"
+        }
+    },
+    {
+        "item_id": 47,
+        "item_type_id": 28,
+        "sub_category_id": 17,
+        "category_name": "Drinks",
+        "info": {
+            "sub_category_name": "Frappuccino\u00ae Blended Beverages",
+            "sub_category_image_path": "./menu/Frappuccino\u00ae Blended Beverages.jpg",
+            "item_type": "Creme Frappuccino\u00ae",
+            "item_name": "White Chocolate Cr\u00e8me Frappuccino\u00ae Blended Beverage",
+            "item_img_path": "./images/drinks/frappucino/White Chocolate Cr\u00e8me Frappuccino\u00ae Blended Beverage.jpg"
+        }
+    },
+    {
+        "item_id": 48,
+        "item_type_id": 28,
+        "sub_category_id": 17,
+        "category_name": "Drinks",
+        "info": {
+            "sub_category_name": "Frappuccino\u00ae Blended Beverages",
+            "sub_category_image_path": "./menu/Frappuccino\u00ae Blended Beverages.jpg",
+            "item_type": "Creme Frappuccino\u00ae",
+            "item_name": "Chai Cr\u00e8me Frappuccino\u00ae",
+            "item_img_path": "./images/drinks/frappucino/Chai Cr\u00e8me Frappuccino\u00ae.jpg"
+        }
+    },
+    {
+        "item_id": 49,
+        "item_type_id": 27,
+        "sub_category_id": 17,
+        "category_name": "Drinks",
+        "info": {
+            "sub_category_name": "Frappuccino\u00ae Blended Beverages",
+            "sub_category_image_path": "./menu/Frappuccino\u00ae Blended Beverages.jpg",
+            "item_type": "Coffee Frappuccino\u00ae",
+            "item_name": "White Chocolate Mocha Frappuccino\u00ae Blended Beverage",
+            "item_img_path": "./images/drinks/frappucino/White Chocolate Mocha Frappuccino\u00ae Blended Beverage.jpg"
+        }
+    },
+    {
+        "item_id": 50,
+        "item_type_id": 28,
+        "sub_category_id": 17,
+        "category_name": "Drinks",
+        "info": {
+            "sub_category_name": "Frappuccino\u00ae Blended Beverages",
+            "sub_category_image_path": "./menu/Frappuccino\u00ae Blended Beverages.jpg",
+            "item_type": "Creme Frappuccino\u00ae",
+            "item_name": "Matcha Cr\u00e8me Frappuccino\u00ae Blended Beverage",
+            "item_img_path": "./images/drinks/frappucino/Matcha Cr\u00e8me Frappuccino\u00ae Blended Beverage.jpg"
+        }
+    }
+]

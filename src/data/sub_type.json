@@ -1,0 +1,230 @@
+[
+  {
+    "sub_category": "Cold Coffees",
+    "sub_category_id": 6,
+    "id": 1,
+    "type": "Cold Brews"
+  },
+  {
+    "sub_category": "Cold Coffees",
+    "sub_category_id": 6,
+    "id": 2,
+    "type": "Nitro Cold Brews"
+  },
+  {
+    "sub_category": "Cold Coffees",
+    "sub_category_id": 6,
+    "id": 3,
+    "type": "Iced Americano"
+  },
+  {
+    "sub_category": "Cold Coffees",
+    "sub_category_id": 6,
+    "id": 4,
+    "type": "Iced Coffees"
+  },
+  {
+    "sub_category": "Cold Coffees",
+    "sub_category_id": 6,
+    "id": 5,
+    "type": "Iced Shaken Espresso"
+  },
+  {
+    "sub_category": "Cold Coffees",
+    "sub_category_id": 6,
+    "id": 6,
+    "type": "Iced Flat Whites"
+  },
+  {
+    "sub_category": "Cold Coffees",
+    "sub_category_id": 6,
+    "id": 7,
+    "type": "Iced Lattes"
+  },
+  {
+    "sub_category": "Cold Coffees",
+    "sub_category_id": 6,
+    "id": 8,
+    "type": "Iced Macchiatos"
+  },
+  {
+    "sub_category": "Cold Coffees",
+    "sub_category_id": 6,
+    "id": 9,
+    "type": "Iced Mochas"
+  },
+  {
+    "sub_category": "Oleato™",
+    "sub_category_id": 15,
+    "id": 10,
+    "type": "Oleato"
+  },
+  {
+    "sub_category": "Hot Coffees",
+    "sub_category_id": 16,
+    "id": 11,
+    "type": "Americanos"
+  },
+  {
+    "sub_category": "Hot Coffees",
+    "sub_category_id": 16,
+    "id": 12,
+    "type": "Brewed Coffees"
+  },
+  {
+    "sub_category": "Hot Coffees",
+    "sub_category_id": 16,
+    "id": 13,
+    "type": "Cappuccinos"
+  },
+  {
+    "sub_category": "Hot Coffees",
+    "sub_category_id": 16,
+    "id": 14,
+    "type": "Espresso Shots"
+  },
+  {
+    "sub_category": "Hot Coffees",
+    "sub_category_id": 16,
+    "id": 15,
+    "type": "Flat Whites"
+  },
+  {
+    "sub_category": "Hot Coffees",
+    "sub_category_id": 16,
+    "id": 16,
+    "type": "Lattes"
+  },
+  {
+    "sub_category": "Hot Coffees",
+    "sub_category_id": 16,
+    "id": 17,
+    "type": "Macchiato"
+  },
+  {
+    "sub_category": "Hot Coffees",
+    "sub_category_id": 16,
+    "id": 18,
+    "type": "Mochas"
+  },
+  {
+    "sub_category": "Hot Coffees",
+    "sub_category_id": 16,
+    "id": 19,
+    "type": "Coffee Travelers"
+  },
+  {
+    "sub_category": "Hot Teas",
+    "sub_category_id": 8,
+    "id": 20,
+    "type": "Chai Teas"
+  },
+  {
+    "sub_category": "Hot Teas",
+    "sub_category_id": 8,
+    "id": 21,
+    "type": "Black Teas"
+  },
+  {
+    "sub_category": "Hot Teas",
+    "sub_category_id": 8,
+    "id": 22,
+    "type": "Green Teas"
+  },
+  {
+    "sub_category": "Hot Teas",
+    "sub_category_id": 8,
+    "id": 23,
+    "type": "Herbal Teas"
+  },
+  {
+    "sub_category": "Hot Drinks",
+    "sub_category_id": 13,
+    "id": 24,
+    "type": "Hot Chocolates"
+  },
+  {
+    "sub_category": "Hot Drinks",
+    "sub_category_id": 13,
+    "id": 25,
+    "type": "Juice"
+  },
+  {
+    "sub_category": "Hot Drinks",
+    "sub_category_id": 13,
+    "id": 26,
+    "type": "Steamers"
+  },
+  {
+    "sub_category": "Frappuccino® Blended Beverages",
+    "sub_category_id": 17,
+    "id": 27,
+    "type": "Coffee Frappuccino®"
+  },
+  {
+    "sub_category": "Frappuccino® Blended Beverages",
+    "sub_category_id": 17,
+    "id": 28,
+    "type": "Creme Frappuccino®"
+  },
+  {
+    "sub_category": "Iced Teas",
+    "sub_category_id": 2,
+    "id": 29,
+    "type": "Bottled Teas"
+  },
+  {
+    "sub_category": "Iced Teas",
+    "sub_category_id": 2,
+    "id": 30,
+    "type": "Iced Black Teas"
+  },
+  {
+    "sub_category": "Iced Teas",
+    "sub_category_id": 2,
+    "id": 31,
+    "type": "Iced Chai Teas"
+  },
+  {
+    "sub_category": "Iced Teas",
+    "sub_category_id": 2,
+    "id": 32,
+    "type": "Iced Green Teas"
+  },
+  {
+    "sub_category": "Iced Teas",
+    "sub_category_id": 2,
+    "id": 33,
+    "type": "Iced Herbal Teas"
+  },
+  {
+    "sub_category": "Cold Drinks",
+    "sub_category_id": 12,
+    "id": 34,
+    "type": "Starbucks Refreshers™"
+  },
+  {
+    "sub_category": "Cold Drinks",
+    "sub_category_id": 12,
+    "id": 35,
+    "type": "Juice Bottle"
+  },
+  {
+    "sub_category": "Cold Drinks",
+    "sub_category_id": 12,
+    "id": 36,
+    "type": "Milk"
+  },
+  {
+    "sub_category": "Cold Drinks",
+    "sub_category_id": 12,
+    "id": 37,
+    "type": "Sparkling Water"
+  },
+  {
+    "sub_category": "Cold Drinks",
+    "sub_category_id": 12,
+    "id": 38,
+    "type": "Water"
+  }
+]
