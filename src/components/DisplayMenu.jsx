@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom"
+import "./DisplayMenu.scss"
 
 function DisplayMenu(props) {
     return (
-        <Link to={`/${props.id}`}>
-            <h2>{props.sub_category}</h2>
+        <Link className="sub-categories" to={`/${props.sub_category}`}>
             <img src={props.image_path}></img>
+            <p>{props.sub_category}</p>
         </Link>
 
     )

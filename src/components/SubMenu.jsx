@@ -1,35 +1,38 @@
 import { useParams } from "react-router-dom";
 import data from "../data/sub_type.json";
 import DisplaySubMenu from "./DisplaySubMenu";
+import Sidebar from "./Sidebar";
+import "./SubMenu.scss"
 
 
 function SubMenu() {
-    const { sub_cat_id } = useParams()
-    const subCatId = parseInt(sub_cat_id);
+    const { sub_category } = useParams()
+
 
     const subCatItem = []
-    const itemType = []
 
     for (const item of data) {
-        if (item.sub_category_id === subCatId) {
+        if (item.sub_category === sub_category) {
             subCatItem.push(item)
         }
     }
-    for (const i of subCatItem) {
-        itemType.push(i.type)
-    }
-    console.log(subCatItem)
 
     return (
-        <>
+        <div className="sub-menu-container">
+            <div className="sidebar-container">
+                <Sidebar />
+            </div>
             <h1>{subCatItem[0].sub_category}</h1>
-            /////////////
-            <section className="item-type">
-                {subCatItem.map((item) => (
-                    <>{DisplaySubMenu(item)}</>
-                ))}
-            </section>
-        </>
+            <div className="sub-menu">
+                <section className="item-type">
+                    {subCatItem.map((item) => (
+                        <>{DisplaySubMenu(item)}</>
+                    ))}
+                </section>
+
+            </div>
+
+        </div>
 
     )
 }

@@ -8,7 +8,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Menu />} />
-      <Route path="/:sub_cat_id" element={<SubMenu />} />
+      <Route path="/:sub_category" element={<SubMenu />} />
       <Route path='/:item_type/:item_id' element={<Customize />} />
     </Routes>
   );

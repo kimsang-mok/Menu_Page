@@ -5,20 +5,20 @@ function Customize() {
     const { item_id } = useParams()
     const itemId = parseInt(item_id)
 
-    const itemObj = []
+    let item_name = ''
+    let item_image = ''
     for (const item of data) {
         if (item.item_id === itemId) {
-            itemObj.push(item)
+            item_name = item.info.item_name
+            item_image = '.' + item.info.item_img_path
         }
 
     }
-    let [item] = itemObj
-    console.log(item)
-
 
     return (
         <div>
-
+            <h2>{item_name}</h2>
+            <img src={item_image} />
         </div>
     )
 }
