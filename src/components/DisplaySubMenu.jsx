@@ -2,6 +2,7 @@ import "./DisplaySubMenu.scss"
 import data from "../data/starbucks_data.json"
 import DisplayItems from "./DisplayItems"
 
+
 function DisplaySubMenu(props) {
     const items = []
     for (const item of data) {
@@ -15,7 +16,10 @@ function DisplaySubMenu(props) {
 
     return (
         <div className="sub-menu-items">
-            <h2>{props.type}</h2>
+            <div className="item-type-header">
+                <h2>{props.type}</h2>
+                <hr />
+            </div>
             {items.map((item) => (
                 <>{DisplayItems(item)}</>
             ))}

@@ -34,25 +34,38 @@ function Menu() {
 
                 <h1>Menu</h1>
                 <section className="menu drinks">
-                    <h2>Drinks</h2>
+                    <div className="category">
+                        <h2>Drinks</h2>
+                        <hr />
+                    </div>
+
                     {drinks.map((item) => (
                         <>{DisplayMenu(item)}</>
                     ))}
                 </section>
                 <section className="menu food">
-                    <h2>Food</h2>
+                    <div className="category">
+                        <h2>Foods</h2>
+                        <hr />
+                    </div>
                     {food.map((item) => (
                         <>{DisplayMenu(item)}</>
                     ))}
                 </section>
                 <section className="menu at-home-coffee">
-                    <h2>At Home Coffee</h2>
+                    <div className="category">
+                        <h2>At Home Coffee</h2>
+                        <hr />
+                    </div>
                     {atHomeCoffee.map((item) => (
                         <>{DisplayMenu(item)}</>
                     ))}
                 </section>
                 <section className="menu food">
-                    <h2>Merchandise</h2>
+                    <div className="category">
+                        <h2>Merchandise</h2>
+                        <hr />
+                    </div>
                     {merchandise.map((item) => (
                         <>{DisplayMenu(item)}</>
                     ))}

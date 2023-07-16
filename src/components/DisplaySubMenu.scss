@@ -1,7 +1,18 @@
 .sub-menu-items {
     padding-bottom: 40px;
-    h2 {
+    .item-type-header {
         grid-column: 1 / -1;
+
+        h2 {
+            padding: 0 0 16px;
+        }
+
+        hr {
+            border: 0;
+            border-top: 2px solid #33333341;
+            border-bottom: 1px solid #ffffff5b;
+            padding-bottom: 48px;
+        }
     }
 
 
@@ -21,7 +32,7 @@
 
         p {
             width: 80%;
-            font-size: 19px;
+            font-size: 16px;
             line-height: 1.5;
             font-weight: 600;
             text-align: center;
@@ -29,5 +40,16 @@
         }
 
         
+    }
+}
+
+
+@media (max-width: 768px) {
+    .sub-menu-items {
+        .items {
+            p {
+                font-size: 14px;
+            }
+        }
     }
 }

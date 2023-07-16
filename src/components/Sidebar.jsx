@@ -19,22 +19,22 @@ function Sidebar() {
             <p>Foods</p>
             <ul>
                 <Link to="/Hot Breakfast">Hot Breakfast</Link>
-                <Link to=""></Link>
-                <Link to=""></Link>
-                <Link to=""></Link>
-                <Link to=""></Link>
+                <Link to="/Oatmeal & Yogurt">Oatmeal & Yougurt</Link>
+                <Link to="/Bakery">Bakery</Link>
+                <Link to="/Lunch">Lunch</Link>
+                <Link to="/Snacks & Sweets">Snacks & Sweets</Link>
             </ul>
-            <p>Teas</p>
+            <p>At Home Coffee</p>
             <ul>
-                <Link to=""></Link>
-                <Link to=""></Link>
+                <Link to="/Whole Bean">Whole Bean</Link>
+                <Link to="/VIA® Instant">VIA® Instant</Link>
             </ul>
-            <p>Teas</p>
+            <p>Merchandise</p>
             <ul>
-                <Link to=""></Link>
-                <Link to=""></Link>
-                <Link to=""></Link>
-                <Link to=""></Link>
+                <Link to="/VIA® Instant">VIA® Instant</Link>
+                <Link to="/Tumblers">Tumblers</Link>
+                <Link to="/Mugs">Mugs</Link>
+                <Link to="/Other">Other</Link>
             </ul>
         </div>
     )
