@@ -22,6 +22,7 @@ function SubMenu() {
             <div className="sidebar-container">
                 <Sidebar />
             </div>
+
             <h1>{subCatItem[0].sub_category}</h1>
             <div className="sub-menu">
                 <section className="item-type">

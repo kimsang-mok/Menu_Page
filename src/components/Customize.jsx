@@ -9,8 +9,8 @@ function Customize() {
     let item_image = ''
     for (const item of data) {
         if (item.item_id === itemId) {
-            item_name = item.info.item_name
-            item_image = '.' + item.info.item_img_path
+            item_name = item.item_name
+            item_image = '.' + item.item_img_path
         }
 
     }
