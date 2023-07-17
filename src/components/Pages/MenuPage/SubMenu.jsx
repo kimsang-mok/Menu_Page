@@ -1,5 +1,5 @@
 import { useParams, Link } from "react-router-dom";
-import data from "../data/sub_type.json";
+import data from "../../../data/sub_type.json";
 import DisplaySubMenu from "./DisplaySubMenu";
 import Sidebar from "./Sidebar";
 import "./SubMenu.scss"
@@ -24,7 +24,7 @@ function SubMenu() {
             </div>
 
             <header>
-                <p><Link to="/">Menu</Link> / {subCatItem[0].sub_category}</p>
+                <p><Link to="/menu">Menu</Link> / {subCatItem[0].sub_category}</p>
                 <h1>{subCatItem[0].sub_category}</h1>
             </header>
 

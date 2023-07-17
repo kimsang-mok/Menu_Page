@@ -1,5 +1,5 @@
 import "./DisplaySubMenu.scss"
-import data from "../data/starbucks_data.json"
+import data from "../../../data/starbucks_data.json"
 import DisplayItems from "./DisplayItems"
 
 

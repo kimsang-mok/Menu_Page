@@ -1,4 +1,4 @@
-import data from "../data/starbucks_data.json"
+import data from "../../../data/starbucks_data.json"
 import { useParams } from "react-router-dom"
 
 function Customize() {

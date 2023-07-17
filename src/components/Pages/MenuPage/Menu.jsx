@@ -1,10 +1,27 @@
-import data from "../data/cat_subcat.json"
+import data from "../../../data/cat_subcat.json"
 import DisplayMenu from "./DisplayMenu";
 import "./Menu.scss"
 import Sidebar from "./Sidebar";
+import NavigationBar from "../../Navigation/NavigationBar"
+import { useState, useEffect } from "react"
 
 
 function Menu() {
+    const [noScroll, setNoScroll] = useState(false);
+
+    const handleNoScroll = (isNavOpen) => {
+        setNoScroll(isNavOpen);
+    };
+    console.log(noScroll)
+
+    useEffect(() => {
+        if (noScroll) {
+            document.body.classList.add('no-scroll');
+        } else {
+            document.body.classList.remove('no-scroll');
+        }
+    }, [noScroll]);
+
     const drinks = [];
     const food = [];
     const atHomeCoffee = [];
@@ -27,6 +44,7 @@ function Menu() {
 
     return (
         <>
+            <NavigationBar handleNoScroll={handleNoScroll} />
             <main className="main_container">
                 <div className="sidebar-container">
                     <Sidebar />
