@@ -227,8 +227,37 @@ img {
     }
 }
 
+.all-products {
+    position: fixed;
+    top: 90px;
+    background-color: #ffffff;
+    width: 80%;
+    height: 100%;
+    right: 0;
+    padding: 30px;
+    line-height: 4;
+    box-shadow: inset 0 4px 2px -2px rgb(174, 170, 170);
+    transition: 0.3s;
 
-
+    button {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        border: none;
+        font-size: 16px;
+        padding: 8px 0;
+        p {
+            flex: 3;
+            padding-left: 40%;
+        }
+        img {
+            flex: .5;
+            width: 32px;
+            height: 32px;
+        }
+    }
+}
 .hidden {
     transform: translateX(100%);
 }

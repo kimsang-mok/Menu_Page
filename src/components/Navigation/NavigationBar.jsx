@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from "react-router-dom"
 import "../Button/Button.scss"
+import next from "./next.svg"
 
 import './NavigationBar.scss';
 
 function NavigationBar({ handleNoScroll }) {
     const [isNavOpen, setIsNavOpen] = useState(false);
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const toggleNav = () => {
         setIsNavOpen(!isNavOpen);
@@ -28,14 +30,17 @@ function NavigationBar({ handleNoScroll }) {
         handleNoScroll(isNavOpen);
     }, [isNavOpen, handleNoScroll]);
 
+    const products = document.querySelector('.all-products')
     const hideNavOnClickOutside = (event) => {
         const navbar = document.querySelector('.navigation-bar');
         const btn = document.getElementById('menu-btn')
         const nav = document.getElementById('menu')
+
         if (
             !navbar.contains(event.target) &&
             !nav.contains(event.target) &&
-            !btn.contains(event.target)
+            !btn.contains(event.target) &&
+            !products.contains(event.target)
         ) {
             setIsNavOpen(false);
         }
@@ -47,6 +52,24 @@ function NavigationBar({ handleNoScroll }) {
             document.removeEventListener('click', hideNavOnClickOutside);
         };
     }, []);
+
+    const handleMenuClick = () => {
+        setIsMenuOpen(!isMenuOpen)
+    }
+
+    const returnToMenu = () => {
+        setIsMenuOpen(!isMenuOpen)
+    }
+
+    useEffect(() => {
+        if (isNavOpen) {
+            setIsMenuOpen(!isNavOpen)
+        }
+        else {
+            setIsMenuOpen(isNavOpen)
+        }
+
+    }, [isNavOpen])
 
     return (
         <>
@@ -115,7 +138,7 @@ function NavigationBar({ handleNoScroll }) {
             <div className={isNavOpen ? 'mobile-menu' : 'mobile-menu hidden'} id="menu">
                 <ul className="navbar-head">
                     <li>
-                        <Link to="/menu">Menu</Link>
+                        <p onClick={handleMenuClick}>Menu</p>
                     </li>
                     <li>
                         <Link to="/rewards">Rewards</Link>
@@ -154,11 +177,30 @@ function NavigationBar({ handleNoScroll }) {
                     </div>
                 </div>
             </div>
+            <div className={isMenuOpen ? "all-products" : "all-products hidden"}>
+                <ul className="items-container">
+                    <li>
+                        <button onClick={returnToMenu}>
+                            <span>Back to Menu</span>
+                            <img src={next} />
+                        </button>
 
+                    </li>
+                    <li>
+                        <Link to="/rewards">All products</Link>
+                    </li>
+                    <li>
+                        <Link to="">Feature</Link>
+                    </li>
+                    <li>
+                        <Link to="">Previous Orders</Link>
+                    </li>
+                    <li>
+                        <Link to="">Favorite Products</Link>
+                    </li>
+                </ul>
 
-
-
-
+            </div>
         </>
     )
 }
