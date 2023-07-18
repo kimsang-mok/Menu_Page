@@ -18,14 +18,16 @@ a {
 
 
 .main-header {
-    height: 800px;
+    height: 700px;
     background-color: #d4e9e2;
     margin: 32px 0 60px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    background-image: url('./stars.png');
     background-size: cover;
-    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-position: center bottom;
 
 
 
@@ -124,6 +126,7 @@ a {
         flex-direction: column;
         height: 700px;
         margin-bottom: 32px;
+        background-position: center 100px;
 
         .text-content {
             text-align: center;
